@@ -1,7 +1,8 @@
 @echo off
-echo Mise a jour demandee & echo.
+
+echo Update requested & echo.
 timeout /t 2 >nul /nobreak
 winget upgrade --all
-echo. & echo Mise a jour effectuee
+echo. & echo Update completed
 timeout /t 1 >nul
 timeout /t 3

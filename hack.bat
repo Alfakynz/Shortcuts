@@ -1,13 +1,14 @@
 @echo off
+
 nircmd sendkeypress alt+enter
 color a
 cd C:\
 
-echo Hack en preparation...
+echo Preparing hack...
 timeout /t 3 >nul /nobreak
-echo Hack en cours... & echo.
+echo Hacking in progress... & echo.
 timeout /t 1 >nul /nobreak
-dir/s
-echo. & echo Hack Termine...
+dir /s
+echo. & echo Hack is ending...
 timeout /t 1 >nul
 timeout /t 3

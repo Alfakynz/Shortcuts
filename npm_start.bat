@@ -1,6 +1,7 @@
 @echo off
-set /p folderName="Entrez le nom du dossier à lancer: "
+set /p userFolder="The user's folder name: "
+set /p folderName="The project's folder name: "
 
-cd C:\Users\Nadeswaran\Documents\GitHub\%folderName%
+cd C:\Users\%userFolder%\Documents\GitHub\%folderName%
 
 npm run start
