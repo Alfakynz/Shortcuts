@@ -1,5 +1,7 @@
 # Shortcuts - informations
 
+To add this files in Start Menu or Taskbar, you have to create shortcuts on the following folder : `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`.
+
 ## Descriptions
 ### hack.bat
 A batch script that list all files in the C: disk and subdirectories. Run this script to impress your friends. 
