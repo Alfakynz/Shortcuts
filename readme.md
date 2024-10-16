@@ -7,7 +7,7 @@ To add this files in Start Menu or Taskbar, you have to create shortcuts on the 
 A batch script that list all files in the C: disk and subdirectories. Run this script to impress your friends. 
 
 ### npm_start.bat
-A batch script that starts the Node.js server. Run this script and complete names of folders to start the server.
+A batch script that starts the Node.js server. Run this script and complete names of folders to start the server. The final path will be `C:\Users\%userFolder%\Documents\GitHub\%folderName%`.
 
 ### update.bat
 A batch script that updates all applications installed in your system. Run this script to install the latest versions of your applications.
