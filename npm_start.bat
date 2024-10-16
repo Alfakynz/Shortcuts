@@ -1,14 +1,9 @@
 @echo off
 :loop
-echo The final path will be C:\Users\%%userFolder%%\Documents\GitHub\%%folderName%% & echo.
-
-set /p userFolder="The user's folder name: "
-set userFolderPath=C:\Users\%userFolder%
-
-if not exist "%userFolderPath%" goto error
+echo The final path will be %USERPROFILE%\Documents\GitHub\%%folderName%% & echo.
 
 set /p folderName="The project's folder name: "
-set folderPath=C:\Users\%userFolder%\Documents\GitHub\%folderName%
+set folderPath=%USERPROFILE%\Documents\GitHub\%folderName%
 
 if not exist "%folderPath%" goto error
 
