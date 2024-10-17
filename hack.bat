@@ -1,6 +1,11 @@
 @echo off
 
-nircmd sendkeypress alt+enter
+set "nircmd_path=C:\Windows\nircmd.exe"
+
+IF EXIST "%nircmd_path%" (
+    %nircmd_path% sendkeypress alt+enter
+)
+
 color a
 cd C:\
 

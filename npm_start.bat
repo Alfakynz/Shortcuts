@@ -4,10 +4,12 @@ echo The final path will be %USERPROFILE%\Documents\GitHub\%%folderName%% & echo
 
 set /p folderName="The project's folder name: "
 set folderPath=%USERPROFILE%\Documents\GitHub\%folderName%
-
 if not exist "%folderPath%" goto error
-
 cd /d "%folderPath%"
+
+set /p projectPort="The project's port: "
+
+start http://localhost:%projectPort%
 npm run start
 exit /b
 

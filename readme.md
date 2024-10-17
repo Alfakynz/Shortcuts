@@ -7,7 +7,7 @@ To add this files in Start Menu or Taskbar, you have to create shortcuts on the 
 A batch script that list all files in the C: disk and subdirectories. Run this script to impress your friends. 
 
 ### npm_start.bat
-A batch script that starts the Node.js server. Run this script and complete names of folders to start the server. The final path will be `%USERPROFILE%\Documents\GitHub\%folderName%`.
+A batch script that starts the Node.js server. Run this script and complete names of folders et port to start the server and open navigator. The final path will be `%USERPROFILE%\Documents\GitHub\%folderName%`.
 
 ### update.bat
 A batch script that updates all applications installed in your system. Run this script to install the latest versions of your applications.
@@ -16,7 +16,6 @@ A batch script that updates all applications installed in your system. Run this 
 ## Requirements
 ### hack.bat
 You need to install [nircmd](https://www.nirsoft.net/utils/nircmd.html) and add it to your system's PATH.
-Else, you can remove this following line : `nircmd sendkeypress alt+enter`. 
 
 ### npm_start.bat
 You need to have [npm](https://www.npmjs.com/) (or [node.js](https://nodejs.org/en/download/)).
